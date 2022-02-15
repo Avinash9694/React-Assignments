@@ -8,4 +8,73 @@ body {
   line-height: 1.5;
   color: black;
   margin:0;
-} 
+}
+.logo{
+  height:30px;
+  position: absolute;
+  left:30px;
+  top:7px;
+}
+.camera{
+  height:30px;
+  float:right;
+  position:absolute;
+  right:10px;
+  top:7px;
+}
+.instaClone{
+  position:absolute;
+  top:0px;
+  left:-1400px;
+}
+.title{
+  height:40px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.mainBody{
+  width:800px;
+  height:730px;
+  border:1px solid black;
+  margin-left: 400px;
+}
+a{
+  text-decoration: none;
+  float:right;
+  font-size: xx-large;
+  position:relative;
+  bottom:30px;
+  right:5px;
+}
+.heart{
+  height:40px;
+  float:left;
+  margin-left: 40px;
+}
+.share{
+  height:40px;
+  float:left;
+  margin-left: 10px;
+}
+.likes{
+  position:relative;
+  top:50px;
+  right:400px;
+}
+.description{
+  position: relative;
+  top:40px;
+  right:350px;
+}
+.img{
+  width:800px;
+  height:500px;
+}
+.date{
+  float:right;
+  margin-right: 10px;
+}
+.name{
+  margin-left: 5px;
+  font-size: larger;
+}

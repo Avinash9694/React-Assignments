@@ -13,9 +13,25 @@
 <body>
     <div id="root"></div>
     <script type="text/babel">
+      var ReactUL = (
+        <div>
+        <div className= "yellow">
+          <div className="content"></div>
+          <div className="content"></div>
+          </div>
+        <div className="red">
+          <div className="content"></div>
+          </div>
+          <div className= "blue">
+          <div className="content"></div>
+          <div className="content"></div>
+          <div className="content"></div>
+          </div>
+        </div>
+      )
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
-
+ ReactDOM.render(ReactUL,document.getElementById('root'));
+      
 </script>
 <!--
      Note: this page is a great way to try React but it's not suitable for production.
